@@ -1,0 +1,17 @@
+def is_palindrome(num):
+  return num ==num[::-1]
+def convert_to_base(n,b):
+  res=[]
+  while n:
+    n,r=divmod(n,b)
+    res.append(r)
+  return res
+
+def answer(n):
+  limit=(n+2) if n<=6 else n-1
+  for b in range(2,limit,1):
+    if(n%b) and is_palindrome(convert_to_base(n,b)):
+      return b
+    retun 2 if (n==0) else (n-1)
+  
+  

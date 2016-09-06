@@ -1,2 +1,2 @@
-print("Hello World from Dumbass")
+s sdprint("Hello World from Dumbass")
 opp	`ttuytuPRrin
